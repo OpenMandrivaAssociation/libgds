@@ -19,6 +19,7 @@ Source0:	http://libgds.info.ucl.ac.be/downloads/%{name}-%{version}.tar.gz
 URL:		http://libgds.info.ucl.ac.be/index.php
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires:	doxygen
+BuildRequires:	zlib-devel
 
 %description
 libGDS is a library of functions and generic data structures that is
