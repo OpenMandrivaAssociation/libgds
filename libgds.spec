@@ -9,7 +9,7 @@
 Summary:	A library of functions and generic data structures
 Name:		libgds
 Version:	1.4.5
-Release:	%{mkrel 1}
+Release:	%{mkrel 2}
 # The website claims 'LGPL' but the tarball includes a copy of the GPL,
 # no copy of the LGPL, and no info in any source file headers. I am
 # mailing upstream for a clarification. - AdamW 2008/12
