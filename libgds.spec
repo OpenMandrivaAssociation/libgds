@@ -16,6 +16,7 @@ Release:	%{mkrel 2}
 License:	GPL+
 Group:		System/Libraries
 Source0:	http://libgds.info.ucl.ac.be/downloads/%{name}-%{version}.tar.gz
+Patch0:		libgds-1.4.5-fix-str-fmt.patch
 URL:		http://libgds.info.ucl.ac.be/index.php
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires:	doxygen
@@ -54,6 +55,7 @@ functions. This package contains the development headers.
 
 %prep
 %setup -q
+%patch0 -p0
 
 %build
 # Note: libxml support is available, but broken, it fails to build
