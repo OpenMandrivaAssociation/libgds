@@ -1,0 +1,11 @@
+--- src/libgds/utest.c.str	2010-02-19 23:04:04.000000000 +0100
++++ src/libgds/utest.c	2010-02-19 23:04:23.000000000 +0100
+@@ -265,7 +265,7 @@
+ {
+   va_list ap;
+ 
+-  snprintf(acTmpFile, UTEST_FILE_MAX, pcFile);
++  snprintf(acTmpFile, UTEST_FILE_MAX, "%s", pcFile);
+   iTmpLine= iLine;
+ 
+   va_start(ap, pcFormat);
