@@ -90,3 +90,19 @@ rm -rf %{buildroot}
 %{_libdir}/%{name}.*a
 %{_libdir}/pkgconfig/%{name}.pc
 
+
+
+%changelog
+* Fri Feb 19 2010 Funda Wang <fwang@mandriva.org> 1.4.5-2mdv2010.1
++ Revision: 508592
+- fix str fmt
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+
+* Tue Dec 09 2008 Adam Williamson <awilliamson@mandriva.org> 1.4.5-1mdv2009.1
++ Revision: 312065
+- buildrequires zlib-devel
+- import libgds
+
+
