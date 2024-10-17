@@ -17,7 +17,7 @@ License:	GPL+
 Group:		System/Libraries
 Source0:	http://libgds.info.ucl.ac.be/downloads/%{name}-%{version}.tar.gz
 Patch0:		libgds-1.4.5-fix-str-fmt.patch
-URL:		http://libgds.info.ucl.ac.be/index.php
+URL:		https://libgds.info.ucl.ac.be/index.php
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires:	doxygen
 BuildRequires:	zlib-devel
